@@ -23,6 +23,6 @@ class PageExtension extends AbstractTypeExtension
     {
         $builder
             ->add('grapejsState', HiddenType::class)
-        ;
+            ->add('content', HiddenType::class);
     }
 }
