@@ -1,0 +1,5 @@
+services:
+  friends_of_oro.form.type.extension.page_form_extension:
+    class: FriendsOfOro\Bundle\GrapeJsBundle\Form\Extension\PageExtension
+    tags:
+      - { name: form.type_extension, extended_type: Oro\Bundle\CMSBundle\Form\Type\PageType }
