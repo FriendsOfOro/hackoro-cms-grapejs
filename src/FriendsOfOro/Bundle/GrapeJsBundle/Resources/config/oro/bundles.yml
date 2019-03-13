@@ -1,0 +1,2 @@
+bundles:
+    - { name: FriendsOfOro\Bundle\GrapeJsBundle\OroGrapeJsBundle, priority: 10 }

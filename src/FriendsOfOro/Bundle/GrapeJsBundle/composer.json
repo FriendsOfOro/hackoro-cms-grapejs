@@ -1,0 +1,21 @@
+{
+  "name": "friendsoforo/grapejs",
+  "description": "Integrate GrapeJs into OroCommerce CMS at first",
+  "type": "symfony-bundle",
+  "license": "OSLv3",
+  "authors": [
+    {
+      "name": "Sylvain Rayé",
+      "email": "support@diglin.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "FriendsOfOro\\Bundle\\GrapeJsBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
